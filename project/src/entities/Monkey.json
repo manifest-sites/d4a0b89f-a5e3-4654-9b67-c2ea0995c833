@@ -1,0 +1,38 @@
+{
+    "name": "Monkey",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "Name of the monkey"
+      },
+      "species": {
+        "type": "string",
+        "description": "Species of the monkey"
+      },
+      "habitat": {
+        "type": "string",
+        "description": "Natural habitat of the monkey"
+      },
+      "funFact": {
+        "type": "string",
+        "description": "Interesting fact about this monkey"
+      },
+      "imageUrl": {
+        "type": "string",
+        "description": "URL to monkey image"
+      },
+      "isFavorite": {
+        "type": "boolean",
+        "description": "Whether this monkey is marked as favorite"
+      },
+      "conservationStatus": {
+        "type": "string",
+        "description": "Conservation status of the species"
+      }
+    },
+    "required": [
+      "name",
+      "species"
+    ]
+  }
